@@ -5,7 +5,7 @@
 }:
 
 let
-  version = "0.44.1";
+  version = "0.44.2";
 in
 rustPlatform.buildRustPackage rec {
   pname = "rtk";
@@ -15,7 +15,7 @@ rustPlatform.buildRustPackage rec {
     owner = "rtk-ai";
     repo = "rtk";
     rev = "v${version}";
-    hash = "sha256-5AN/sK0IOIqcLX0FviFPOJ9QX9xJpliSN1XY3isxyrA=";
+    hash = "sha256-qOWWHov0m3A8V48r/UGN2Hxz+/XraPRYhNPnZ+B+ZBY=";
   };
 
   cargoLock = {
